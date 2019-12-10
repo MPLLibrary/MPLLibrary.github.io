@@ -1,13 +1,66 @@
 @charset "UTF-8";
 /* CSS Document */
-body {background-color:#4CA4DB;}
-img {background-size: 30px;
+body {
+	background-color:#4CA4DB;
+	font-family: "Helvetica Neue";
+}
 
-font-family: futura-pt, sans-serif;
+h1 {
+	background-color:#FFFFFF;
+	text-align:center;
+	height: 70px;
+	border-style:solid;
+	border-witdth: 100px;
+	width: 650px;
+	margin-right:700px;
+	margin-left:700px;
+	padding-top:30px;
+	padding-left:30px;
+	align-content:center;
+	border-color:#000000;
+	font-family: "Helvetica Neue"; display: flex; 
+}
 
-font-weight: 400;
-
-font-style: normal;
+div {
+	background-color:#FFFFFF;
+	font-size: 12px;
+	height: 50px;
+	border-style:solid;
+	width: 110px;
+	margin: 10px;
+	padding-top:5px;
+	padding-bottom: 5px;
+	padding-left:20px;
+	Padding-right:10px;
+	border-color: #000000;
+	font-family: "Helvetica Neue";
+	 
+	flex-direction: row; 
+	float: left;
+	text-align: center;
+	}
+h2 {content: justify;}
+img {
+	height:400px;
+	text-align: center;
+	flex-direction: row;
+	float: left;
+	Width: 250px;border-style: solid;
+	border-color: #000000; border-width: 5px; margin-left: 20px; 
+	
 } 
 
-.nav {background-color:#FFFFFF;color:#000000;border:medium; border-color: #000000;}
+content{
+	display: flex; 
+	flex-direction: row; 
+	justify-content: center;
+	margin: 40px;
+	float: left;
+	padding-right:10px;
+}
+
+div2 {image-orientation: 10px;content:10px;}
+
+p {color: aliceblue; font-family: "Helvetica Neue";}
+
+
